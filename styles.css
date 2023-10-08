@@ -13,8 +13,8 @@
 
 @media (max-width:850px) and (min-width:300px){
     .logo {
-       max-width: 90px;
-       max-height: 90px;
+       max-width: 75px;
+       max-height: 75px;
     }
 }
 
