@@ -11,7 +11,12 @@
     margin-right: 100px;
 } */
 
-
+@media (max-width:850px) and (min-width:300px){
+    .logo {
+       max-width: 90px;
+       max-height: 90px;
+    }
+}
 
 @media (max-width:990px) {
     .navbar-brand {
