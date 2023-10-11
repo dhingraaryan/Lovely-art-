@@ -258,15 +258,21 @@ img {
 }
 
 .iframe-container {
-    width: 90%; /* Set the width of the container */
-    height: 5800px; /* Set the height of the container */
-    overflow: hidden; /* Hide scrollbars */
+    width: 90%;
+    /* Set the width of the container */
+    height: 580px;
+    /* Set the height of the container */
+    overflow: hidden;
+    /* Hide scrollbars */
 }
 
 iframe {
-    width: 100%; /* Make sure the iframe fills the container */
-    height: 100%; /* Make sure the iframe fills the container */
-    border: none; /* Remove the iframe border (optional) */
+    width: 100%;
+    /* Make sure the iframe fills the container */
+    height: 100%;
+    /* Make sure the iframe fills the container */
+    border: none;
+    /* Remove the iframe border (optional) */
 }
 
 /* Default card styles */
