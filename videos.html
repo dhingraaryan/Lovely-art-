@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Videos</title>
+    <title>Portfolio</title>
     <!-- Include Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Custom CSS for the form -->
@@ -26,16 +26,6 @@
             color: rgb(58, 58, 58);
         }
 
-        /* .col {
-            display: flex;
-            justify-content: center;
-            align-content: center;
-        } */
-
-        .col a {
-            text-align: center;
-        }
-
         h3 {
             align-items: center;
             justify-content: center;
@@ -55,6 +45,20 @@
             }
         }    
 
+        h1 {
+            text-align: center;
+        }
+
+        iframe {
+            height: 300px;
+        }
+
+        @media screen and (max-width: 580px) {
+            .col {
+                min-width: 100%;
+            }
+        }
+
         .col a {
             color: black;
             background: rgb(244, 202, 110);
@@ -64,10 +68,6 @@
             
             background: rgb(242, 181, 51);
             border-color: rgb(242, 181, 51);
-        }
-
-        .btn {
-            border-radius: 20px;
         }
         
     </style>
@@ -87,9 +87,8 @@
                         Portfolio
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="pre-wedding.html">Pre Wedding</a>
+                        <a class="dropdown-item " href="pre-wedding.html">Pre Wedding</a>
                         <a class="dropdown-item" href="wedding.html">Wedding</a>
-                        <a class="dropdown-item" href="babyshoot.html">Baby Shoot</a>
                         <a class="dropdown-item" href="videos.html">Videos</a>
                     </div>
                 </li>
@@ -126,69 +125,45 @@
     <br>
     <br>
     <br>
+    <br>
+    <br>
 
+    <h1>Our Videos</h1>
 
+    <br>
+    <br>
 
     <div class="container">
         <div class="row">
-            <div class="col">
-                <div class="d-flex flex-column align-items-center">
-                    <video width="350px" height="350px" controls="controls">
-                        <source src="videos/V-1.mp4" type="video/mp4" />
-                    </video>
-                    <a href="https://youtu.be/HsWrmVaT0n4?si=pchG9pVmdwkCllDv" class="btn btn-primary mt-2">Full
-                        Video</a>
+            <div class="col col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="flex-column">
+                    <iframe src="https://drive.google.com/file/d/1IkKC9DT2DN3Uaf9C44Wa8h7mueg8TlsY/preview" width="640" height="480" allow="autoplay"></iframe>
                 </div>
             </div>
-            <div class="col">
-                <div class="d-flex flex-column align-items-center">
-                    <video width="350px" height="350px" controls="controls">
-                        <source src="videos/V-2.mp4" type="video/mp4" />
-                    </video>
-                    <a href="https://youtu.be/ktJBqHLraQg?si=U0_l_rO79fTf8Tho" class="btn btn-primary mt-2">Full
-                        Video</a>
+            <div class="col col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="flex-column">
+                    <iframe src="https://drive.google.com/file/d/1IkKC9DT2DN3Uaf9C44Wa8h7mueg8TlsY/preview" width="640" height="480" allow="autoplay"></iframe>
                 </div>
             </div>
-            <div class="col">
-                <div class="d-flex flex-column align-items-center">
-                    <video width="350px" height="350px" controls="controls">
-                        <source src="videos/V-3.mp4" type="video/mp4" />
-                    </video>
-                    <a href="https://youtu.be/CzprZD-1QwY?si=TLjrcz8FH3CFlisQ" class="btn btn-primary mt-2">Full
-                        Video</a>
+            <div class="col col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="flex-column">
+                    <iframe src="https://drive.google.com/file/d/1IkKC9DT2DN3Uaf9C44Wa8h7mueg8TlsY/preview" width="640" height="480" allow="autoplay"></iframe>
                 </div>
             </div>
-            <div class="col">
-                <div class="d-flex flex-column align-items-center">
-                    <video width="350px" height="350px" controls="controls">
-                        <source src="videos/V-4.mp4" type="video/mp4" />
-                    </video>
-                    <a href="https://youtu.be/B_-sMqryuAU?si=mGYdFp6UoeL1ee2s" class="btn btn-primary mt-2">Full
-                        Video</a>
+            <div class="col col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="flex-column">
+                    <iframe src="https://drive.google.com/file/d/1IkKC9DT2DN3Uaf9C44Wa8h7mueg8TlsY/preview" width="640" height="480" allow="autoplay"></iframe>
                 </div>
             </div>
 
-            <div class="col">
-                <div class="d-flex flex-column align-items-center">
-                    <video width="350px" height="350px" controls="controls">
-                        <source src="videos/V-5.mp4" type="video/mp4" />
-                    </video>
-                    <a href="https://youtu.be/nyCtCpkFeIo?si=xE7bMIfotABwGYv8" class="btn btn-primary mt-2">Full
-                        Video</a>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="d-flex flex-column align-items-center">
-                    <video width="350px" height="350px" controls="controls">
-                        <source src="videos/V-7.mp4" type="video/mp4" />
-                    </video>
-                    <a href="https://youtu.be/x3CAT8-kUtc?si=3bQov1ncf8hheZ6U" class="btn btn-primary mt-2">Full
-                        Video</a>
-                </div>
-            </div>
 
         </div>
+
+        <br>
+        <br>
+        <br>
+
+        
 
         <br>
         <br>
