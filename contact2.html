@@ -10,9 +10,36 @@
     <!-- Custom CSS for the form -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="contact.css">
+    <link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="mail.js">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
 
+    <style>
+        /* Make the footer responsive */
+        .iframe-container {
+            width: 100%;
+            height: 300px; /* Adjust the height as needed */
+        }
+
+        .fab {
+            font-size: 20px;
+            padding: 10px 7px 0px;
+        }
+
+        .contact {
+            color: black;
+        }
+        .contact:hover {
+            color: rgb(31, 30, 30);
+            text-decoration: none;
+        }
+
+        .social-icons {
+            margin-bottom: 5px;
+        }
+    </style>
 
 </head>
 
@@ -105,7 +132,21 @@
             </div>
         </form>
     </div>
+
+
+    <div class="footer">
+        <br>
+        <br>
+        <span class="footer-content">&copy Lovely Art Photography</span>
+        <br>
+        <div class="social-icons">
+            <a href="#" class="fab fa-instagram" style="color: #cb1d63; text-decoration: none;" aria-label="Instagram" target="_blank"></a>
+            <a href="#" class="fab fa-facebook" style="color: rgb(19, 83, 232); text-decoration: none;" aria-label="Facebook" target="_blank"></a>
+            <a href="#" class="fab fa-youtube" style="color: red; text-decoration: none;" aria-label="YouTube" target="_blank"></a>
+        </div>
+        <p>For bookings and enquiries kindly contact us at: <a class="contact" href="tel:8054068400"><b>+918054068400</b></a></p>
     </div>
+</div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
     <script src="./mail.js"></script>

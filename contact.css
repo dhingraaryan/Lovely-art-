@@ -6,14 +6,14 @@
 
         body {
             width: 100%;
-            height: 100vh;
+            height: 120vh;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
         .container {
-            width: 50%;
+            width: 80%;
             height: 100vh;
             margin-top: 300px;
             border-radius: 20px;
@@ -42,7 +42,8 @@
         }
 
         .submit {
-            width: 20%;
+            width: 60%;
+            border-radius: 50px;
         }
 
         .inputBox input[type="text"],
